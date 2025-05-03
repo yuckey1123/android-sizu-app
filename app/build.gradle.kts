@@ -68,4 +68,5 @@ dependencies {
     implementation(libs.ktor.client.android)
     implementation(libs.ktor.client.content.negotiation)
     implementation(libs.ktor.client.okhttp)
+    implementation(libs.material3)
 }

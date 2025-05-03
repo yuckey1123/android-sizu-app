@@ -22,7 +22,7 @@ class PostListActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            ArticleListScreen()
+            ArticleListScreen(viewModel = viewModel)
         }
 
         CoroutineScope(Dispatchers.IO).launch {
